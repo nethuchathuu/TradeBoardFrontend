@@ -6,7 +6,7 @@ import HeroSection from "./components/HeroSection";
 import EnhancedJobCard from "./components/EnhancedJobCard";
 
 
-const API = process.env.NEXT_PUBLIC_API_URL || "https://trade-board-backend-hmvyx13j6-nethuchathuus-projects.vercel.app/api";
+const API = process.env.NEXT_PUBLIC_API_URL || "https://trade-board-backend.vercel.app/api";
 const statuses = ["All", "Open", "In Progress", "Closed"];
 
 const categoryConfig = {
