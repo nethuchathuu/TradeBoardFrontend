@@ -3,7 +3,7 @@
 import { createContext, useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+const API = process.env.NEXT_PUBLIC_API_URL || "trade-board-backend-hmvyx13j6-nethuchathuus-projects.vercel.app";
 
 export const AuthContext = createContext();
 

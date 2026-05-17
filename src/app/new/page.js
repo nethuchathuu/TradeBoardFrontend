@@ -5,7 +5,7 @@ import { AuthContext } from "../context/AuthContext";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+const API = process.env.NEXT_PUBLIC_API_URL || "trade-board-backend-hmvyx13j6-nethuchathuus-projects.vercel.app";
 const categories = ["Plumbing", "Electrical", "Painting", "Joinery", "General"];
 
 export default function NewJobPage() {
